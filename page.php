@@ -1,6 +1,7 @@
 <?php
 get_header();
 ?>
+<div class="lp-personeelszaken-familiebedrijf">
     <section class="hero pt-lg-0 pb-lg-0 position-relative">
         <div class="background" style="background-image: url(<?= field('hero_achtergrond') ?>)"></div>
         <div class="container">
@@ -247,6 +248,7 @@ get_header();
             </div>
         </div>
     </section>
+</div>
 
 <?php
 get_footer();
